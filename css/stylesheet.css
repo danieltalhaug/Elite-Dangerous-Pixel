@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.monospace {
+	font-family: monospace;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #00031c;
+}
+#overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: block;
+	background-color: #00031c;
+	z-index: 2;
+	text-align: center;
+}
+.overlay-content {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 400px;
+}
+.overlay-content p {
+	font-size: 1.3em;
+	line-height: 1.6;
+}
+.button {
+	background-color: #f07b05;
+	border: none;
+	padding: 10px 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 10px;
+}
+.button:hover {
+	background-color: #FA8816;
+}
+#overlay h1 {
+	color: #f07b05;
+	font-size: 2.5em;
+}
+#canvas {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid #f07b05;
+}
